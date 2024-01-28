@@ -74,9 +74,9 @@ nav a {
 
   padding: 1%;
   border: 1px solid #f9fafc;
-  width: 370px;
-  height: 400px;
-  margin-left: 14.5rem;
+  width: 394px;
+  height: 420px;
+  margin-left: 10.5rem;
   margin-top: -2rem;
 }
 
@@ -99,7 +99,7 @@ a {
   font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 15px;
 }
 
 .progress-bar {
@@ -127,7 +127,7 @@ a {
   font-size: 18px;
 }
 
-.text-center {
+.skill-text {
   text-align: center;
   font-size: 25px;
 }
@@ -150,18 +150,21 @@ a {
 
 /* Experience Section */
 .experience {
+  height: 200px;
   display: flex;
   padding: 0px;
   margin-bottom: 2rem;
 }
 
-/* .exp-list{
-} */
 
 .exp-detail {
-  margin-left: 0rem;
-  margin-right: 0rem;
-  margin-top: 2rem;
+  width: 3000px;
+  margin-top: 1rem;
+  padding: 0px;
+}
+
+.certi-detail {
+  margin-top: 1rem;
   padding: 0px;
 }
 
@@ -179,21 +182,29 @@ a {
   font-size: 15px;
 }
 
-.text-primary {
+.primary-text {
   font-size: 25px;
   font-weight: 100;
-  /* color: blue; */
+  color: white;
   word-spacing: -0.5px;
 }
 
 .exp-list {
+  width: 1300px;
   font-size: 18px;
   word-spacing: -0.5px;
-  margin-right: 2rem;
-  margin-left: 0rem;
+  padding-right: 0px;
 }
 
-.text-muted {
+.certi-list {
+  font-size: 18px;
+  word-spacing: -0.5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 4rem;
+}
+
+.text-mute {
   font-size: 25px;
   color: #000001;
   font-weight: 100;
@@ -293,14 +304,38 @@ ul.certi-list a {
 .project-cont {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .headings {
   font-size: 35px;
+  margin-bottom: 1rem;
   font-weight: 100;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+
+.contact-txt{
+  font-size: 15px;
+  text-align: center;
+}
+.cntact-btn{
+  
+  padding: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 17px;
+  border: 2px solid #000001;
+  border-radius: 5%;
+  border-radius: 10px !important;
+  text-decoration: none;
+  color: white;
+}
+
+
+.text-center{
+  font-size: 15px;
 }
